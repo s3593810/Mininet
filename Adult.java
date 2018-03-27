@@ -1,4 +1,4 @@
-package model;
+package socialNetwork;
 
 /**
  * Profile presents a person in network
