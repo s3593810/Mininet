@@ -1,8 +1,15 @@
 package socialNetwork;
 
+
 /**
  * Profile presents a person in network
  */
+/**
+ * 
+ * @author  Ali Abdullah A Alahmari
+ *
+ */
+
 public class Profile {
 	
 	/**
@@ -19,6 +26,11 @@ public class Profile {
 	 * status of profile
 	 */
 	private String status = "";
+	
+	/**
+	 * status of picture
+	 */
+	private String picture = "";
 	
 	/**
 	 * F or M
@@ -88,7 +100,7 @@ public class Profile {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-
+	
 	/**
 	 * @return the name
 	 */
